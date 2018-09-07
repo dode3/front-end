@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="MasterBedroom.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    
+
+
+
+	<title>Master Bedroom</title>
+</head>
+
+
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="mainpage.html">HIFA</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            	<ul class="nav navbar-nav navbar-right">
+            		<li ><a href="mainpage.html">Home</a></li>
+            		<li class="dropdown">
+            			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Dashboard<span class="caret"></span></a>
+            			<ul class="dropdown-menu">
+            				<li><a href="#">Master Bedroom</a></li>
+            				<li><a href="#">Living Room</a></li>
+            				<li><a href="#">Kitchen</a></li>
+            			</ul>
+            		</li>
+            	</ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+	
+<br>
+<br>
+<br>
+
+
+      <div class="container" id="thecontent" >
+		<div class="row" id="row">
+			<div class="column">
+				<div class="card">
+					<h3>TV</h3>
+					<label class="switch">
+						<input type="checkbox">
+						<span class="slider round"></span>
+					</label>
+				</div>
+			</div>
+
+		    <div class="column">
+		    	<div class="card">
+		    		<h3>Air Conditioner</h3>
+		    		<label class="switch">
+		    			<input type="checkbox">
+		    			<span class="slider round"></span>
+		    		</label>
+		    	</div>
+		    </div>
+
+		    <div class="column">
+		    	<div class="card">
+		    		<h3>lighting</h3>
+		    		<label class="switch">
+		    			<input type="checkbox">
+		    			<span class="slider round"></span>
+		    		</label>
+		    	</div>
+		    </div>
+
+		    <div class="column">
+		    	<div class="card">
+		    		<h3>Blind</h3>
+		    		<label class="switch">
+		    			<input type="checkbox">
+		    			<span class="slider round"></span>
+		    		</label>
+		    	</div>
+		    </div>
+
+		    <div class="column">
+		    	<div class="card">
+		    		<h3>Fan</h3>
+		    		<label class="switch">
+		    			<input type="checkbox">
+		    			<span class="slider round"></span>
+		    		</label>
+		    	</div>
+		    </div>
+
+		    <div class="column">
+		    	<div class="card" id="lastOne">
+		    		<h3>temperature</h3>
+		    		<label class="switch">
+		    			<input type="checkbox">
+		    			<span class="slider round"></span>
+		    		</label>
+		    	</div>
+		    </div>
+
+		    
+
+
+
+		</div>
+	</div> 
+
+
+	<button class="plus" onclick="theAdd()">+</button>
+
+	
+
+
+ 
+
+
+
+    
+
+    <footer class="container-fluid">
+
+	<div id="footer_social" class="alignleft">
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-linkedin"></a>
+		<a href="#" class="fa fa-google"></a>
+	</div>
+
+	<div id="mytext">	
+
+			<center>Copyright 2018. All rights reserved.</center>
+	</div>
+
+</footer>
+
+
+
+<script>
+
+    	// var btn = document.querySelector('.plus');
+
+    	// var container = document.querySelector('.container ');
+
+    	// var activeElem ;
+
+    	// btn.addEventListner('onclick',function(){
+    	// 	var tempDiv = document.createElement('div');
+    	// 	tempDiv.classList.add("card");
+    		
+    	// 	if (activeElem) {
+    	// 		activeElem.insertAdjacentElement('afterEnd','tempDiv');
+    	// 	}
+    	// 	setListner(tempDiv);
+    	// });
+    	
+
+    	// function setListner (elem){
+    	// 	elem.addEventListener('click', function() {
+    	// 	var allElem = document.querySelectorAll('.container .div');
+    	// 	for(i = 0; i < allElems.length; i++) {
+     //        allElems[i].style.border = '3px solid black';
+     //    } 
+     //  elem.style.border = '3px solid aqua';
+     //  activeElem = elem;
+     //   })
+     //   };
+
+  //      function init() {
+  //   var initElems = document.querySelectorAll('.container .div');
+  //   for(i = 0; i < initElems.length; i++) {
+  //     setListener(initElems[i]);
+  //   }
+  // };
+  // init();
+    	
+    	// $(document).ready(function(){
+    	// 	$("button.plus").on("click",function(){
+    	// 		$("div:last").after("<div class=card><h3>temperature</h3></div>");
+    	// 	})
+    	// })
+
+    </script>
+    	
+<script>
+	function myAdd(){
+		$("<div class="card"><h3>temperature</h3><label class="switch"><input type="checkbox"><span class="slider round"></span></label></div>").insertAfter("#lastOne");
+
+	}
+
+
+</script>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+
+</body>
+
+
+
+</html>

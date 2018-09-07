@@ -1,0 +1,132 @@
+<style>
+* {box-sizing: border-box;}
+
+ body { 
+  margin: 0;
+  font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+  background-color: #2a2b30 ;
+}
+
+
+
+.container-fluid {
+  background-color: #1C1D22;
+   font-size: 20px;
+   
+}
+
+footer {
+  background-color: #1C1D22;
+  color: #cecece ;
+   
+
+}
+
+footer #mytext {
+ /* float: center;*/
+  text-align: center;
+  font-size: 15px;
+  padding-top: 25px;
+}
+
+footer .alignleft {
+  float: left;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+  color:  #55ACEE; 
+}
+
+.fa-facebook {
+  color: #3B5998;
+}
+
+.fa-linkedin {
+  color: #007bb5;
+}
+
+.fa-google {
+  color: #dd4b39;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+}
+
+#mynavbar li {
+  color: #cecece ;
+
+ 
+}
+
+.dropdown-menu{
+  background-color: #1C1D22;
+}
+
+.dropdown-menu li {
+  
+  font-size: 18px;
+}
+
+.navbar-brand{
+  font-size: 40px;
+}
+
+
+#section {
+  height: 600px;
+}
+
+
+
+.container {
+    position: relative;
+    font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #cecece;
+
+    
+}
+
+ 
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+#second-pic img {
+  margin-left: -20px;
+}
+
+p {
+  margin-right: -20px;
+}
+
+ 
+
+
+
+</style>
+
+

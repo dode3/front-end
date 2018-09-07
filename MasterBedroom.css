@@ -1,0 +1,161 @@
+@import "mainpage.css";
+
+<style>
+* {box-sizing: border-box;}
+ body { 
+  margin: 0;
+  font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+  background-color: #2a2b30;
+  color: #cecece; 
+
+}
+
+
+/*#thecontent {
+  position: relative;
+
+}*/
+.container{
+
+    position: relative;
+
+    
+}
+/*this is what i add new*/
+footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  margin-bottom: 10px; /*this is what made the cards rows doesn't stick together*/
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #1C1D22;
+}
+
+div.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #1C1D22;
+
+}
+
+
+
+
+.plus {
+            background-color: #1C1D22;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            float: left;
+        }
+
+
+button p {
+  padding-left: -50px;
+}
+
+
+
+
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/*button div.item {
+            background-color: skyblue;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            float: left;
+        }*/
+
+</style>
